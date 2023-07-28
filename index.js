@@ -153,3 +153,38 @@ function resolveAfter2Seconds() {
 
 =======
 >>>>>>> 914ce8ed06b3dffcadc485786ea7f5e23f3528fa
+
+
+document.querySelectorAll('[id=js-link-box-en]')
+
+$$('[id*=js-link-box]')
+
+
+$$('[id*=js-link-box]')
+
+
+setTimeout(() => {  console.log("World!"); }, 5000);
+
+
+
+
+var langList = $$('[id*=js-link-box]'); var len = langList.length;
+for (var i = 0; i < len; i++){
+    var lang = langList[i];
+    console.log(lang.href);
+}
+$$('#js-lang-list-button')[0].click();
+$$('#searchInput')[0].value = "New";
+$$('#searchInput')[0].focus();
+langList[0].click();
+
+
+
+$$('.mw-logo-container')[0].click(); 
+
+
+
+
+
+
+
